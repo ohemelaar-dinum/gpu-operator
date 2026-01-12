@@ -148,6 +148,8 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: status.hostIP
+        - name: DRIVER_CONFIG_DIGEST
+          value: "185029761"
         - name: KERNEL_MODULE_TYPE
           value: open
         - name: OPEN_KERNEL_MODULES_ENABLED
@@ -248,6 +250,8 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
+        - name: DRIVER_CONFIG_DIGEST
+          value: "185029761"
         - name: FOO
           value: foo
         - name: BAR
